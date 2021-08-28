@@ -29,8 +29,6 @@ const combos = {
   }
 }
 
-
-
 const generateId = () => {
   const number = Math.floor(Math.random() * 10000) + 1;
   return `combo${number}`
